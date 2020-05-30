@@ -1,5 +1,4 @@
-#include<stdio.h>
-#include<string.h>
+#include<bits/stdc++.h>
 
 void reverse(char *s,int left,int right){
 	if (left >= right) return;
@@ -15,12 +14,13 @@ int main(){
 	char s[20];
 	int i;
 	printf("Enter the string:");
-	scanf("%s",&s);
+	gets(s);
 	for(i=0;s[i]!='\0';i++)
 	{
+		
 	}
-	printf("length of string id:%d",i);
+	printf("length of string is:%d",i);
+	
      reverse(s,0,i-1);
      printf("\n Reverse of string is:%s",s);
-	return 0;
 }
