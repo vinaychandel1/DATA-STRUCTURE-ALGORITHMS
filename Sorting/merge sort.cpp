@@ -49,9 +49,10 @@ void mergeSort(int arr[],int l, int r){
 
 int main(int argc, char const *argv[])
 {
-	int arr[]={5,4,3,2,1};
-	mergeSort(arr,0,4);
-	for (int i = 0; i < 5; ++i)
+	int arr[]={5,4,3,2,1,9,7,7,97,76,43};
+	int size=sizeof(arr) / sizeof(arr[0]);
+	mergeSort(arr,0,size-1);
+	for (int i = 0; i < 8; ++i)
 	{
 		cout<<arr[i]<<" ";
 	}
