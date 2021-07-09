@@ -40,3 +40,14 @@ int main(int argc, char const *argv[])
 	cout<<ans<<endl;
 	return 0;
 }
+/*Input:
+5
+21 7
+24 4
+12 6
+40 5
+30 6
+20
+Output:
+109
+*/
