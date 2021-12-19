@@ -112,4 +112,4 @@ int getSize(Node* node)
    return 1+getSize(node->left)+getSize(node->right);
 }
 
-\\ https://practice.geeksforgeeks.org/problems/size-of-binary-tree/1
+// https://practice.geeksforgeeks.org/problems/size-of-binary-tree/1
