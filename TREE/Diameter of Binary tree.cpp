@@ -8,3 +8,4 @@ class Solution {
                nt diameterOfBinaryTree(TreeNode* root)
                 { height(root); return maxi; }
                };
+// https://leetcode.com/problems/diameter-of-binary-tree/
