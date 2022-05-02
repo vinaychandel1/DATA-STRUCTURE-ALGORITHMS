@@ -4,7 +4,7 @@ const int N+1e5+10;
 int parent[N],size[N];
 
 void make(int v){
-    visited[v]=v;
+    parent[v]=v;
     size[v]=1;
 }
 int find(int v){
@@ -19,7 +19,7 @@ void Union(int a,int b){
         if(size[a]<size[b])
             swap(a,b);
         parent[b]=a;
-        size[a]+=size[b;]
+        size[a]+=size[b];
     }
 }
 
