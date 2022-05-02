@@ -1,10 +1,11 @@
 #include<bits/stdc++.h>
 using namespace std;
 const int N+1e5+10;
-int parent[N];
+int parent[N],size[N];
 
 void make(int v){
     visited[v]=v;
+    size[v]=1;
 }
 int find(int v){
     if(v==parent[v]) return v;
@@ -40,5 +41,3 @@ int main(){
        if(find(v)==v) connected_ct++;
     }
 }
-
-//https://www.youtube.com/watch?v=zEAmQqOpfzM
